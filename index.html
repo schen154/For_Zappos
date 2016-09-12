@@ -23,7 +23,7 @@
    
 
     <section class="main-content">
-      <div id="floating-nav-content">
+      <div id="nav">
           <a href="#about_llama" class="btn">About Llama</a>
           <a href="#portfolio" class="btn">Portfolio</a>
           <a href="#contact" class="btn">Contact</a>
@@ -75,17 +75,6 @@
         });
         return false;
     });
-
-    $(document).scroll(function() {
-      if ($(this).scrollTop() == 0) {
-          $("#floating-nav-content").slideUp(400);
-      } else {
-          $("#floating-nav-content").slideDown(600);
-      }
-    });
-
   </script>
-
-
 
 </html>
