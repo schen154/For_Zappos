@@ -20,13 +20,13 @@
       <a href="https://github.com/schen154/For_Zappos/tarball/master" class="btn">Download .tar.gz</a>
     </section>
 
+   
+
     <section class="main-content">
-      <div id="nav">
-        <ul>
-          <li><a href="#about">About Llama</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+      <div id="floating-nav-content">
+          <a href="#about_llama" class="btn">About Llama</a>
+          <a href="#portfolio" class="btn">Portfolio</a>
+          <a href="#contact" class="btn">Contact</a>
       </div>
 
 
@@ -75,6 +75,17 @@
         });
         return false;
     });
+
+    $(document).scroll(function() {
+      if ($(this).scrollTop() == 0) {
+          $("#floating-nav-content").slideUp(400);
+      } else {
+          $("#floating-nav-content").slideDown(600);
+      }
+    });
+
   </script>
+
+
 
 </html>
