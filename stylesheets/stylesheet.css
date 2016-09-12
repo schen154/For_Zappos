@@ -13,11 +13,13 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    height: 70px;
     color: #fff;
     text-align: center;
     background-color: #159957;
     background-image: linear-gradient(120deg, #155799, #159957);
     padding: 5px;
+    opacity: 0.5;
 }
 
 a {
