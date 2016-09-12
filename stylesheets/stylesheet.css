@@ -9,6 +9,10 @@ body {
   line-height: 1.5;
   color: #606c71; }
 
+div.container {
+  display:inline-block;
+}
+
 #float_nav{
     position: fixed;
     top: 0;
