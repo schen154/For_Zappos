@@ -74,6 +74,16 @@
         });
         return false;
     });
+    
+    $(document).scroll(function() {
+      var y = $(this).scrollTop();
+      if (y > 800) {
+        $('#float_nav').fadeIn();
+      } else {
+        $('#float_nav').fadeOut();
+    }
+});
+    
   </script>
 
 </html>
