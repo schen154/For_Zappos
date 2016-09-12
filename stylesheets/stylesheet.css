@@ -22,6 +22,10 @@ body {
     opacity: 0.5;
 }
 
+.smooth{
+  opacity: 1;
+}
+
 a {
   color: #1e6bb8;
   text-decoration: none; }
