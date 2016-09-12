@@ -8,22 +8,9 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-    <script>
-    $('.smooth').on('click', function() {
-        $.smoothScroll({
-            scrollElement: $('body'),
-            scrollTarget: '#' + this.id
-        });
-        return false;
-    });
-    </script>
-
   </head>
 
-  
+
   <body>
     <section class="page-header">
       <h1 class="project-name">For_Zappos</h1>
@@ -45,7 +32,8 @@
 
       <div id="page1">
         <a id="about" class="smooth"></a>
-          About page content goes here.
+          <img src="/images/spitting-llama.jpg" alt="Mountain View" style="width:304px;height:228px;">
+
       </div>
        
       <div id="page2">
@@ -69,4 +57,17 @@
 
   
   </body>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+    <script>
+    $('.smooth').on('click', function() {
+        $.smoothScroll({
+            scrollElement: $('body'),
+            scrollTarget: '#' + this.id
+        });
+        return false;
+    });
+  </script>
+
 </html>
